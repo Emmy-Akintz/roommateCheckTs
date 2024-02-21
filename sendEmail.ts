@@ -39,3 +39,11 @@ const parentFunction = async () => {
 }
 
 parentFunction()
+
+Error: getaddrinfo ENOTFOUND smtp.gmail.com
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+  errno: -3008,
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'smtp.gmail.com',
+  command: 'CONN'
