@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 // D308
 // const email = ['igbekele.emmanuel@lmu.edu.ng', 'attentionofvc@lmu.edu.ng', 'sdo.dsa@lmu.edu.ng', 'dsa@lmu.edu.ng', 'prolusc@lmu.edu.ng']
-const email = ['mohammed.folajimi@lmu.edu.ng']
+const email = ['emzyakints2005@gmail.com']
 
 const sendEmail = async (numberCount: Number) => {
     var transporter = nodemailer.createTransport({
