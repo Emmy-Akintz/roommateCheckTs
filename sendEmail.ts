@@ -1,6 +1,7 @@
-const nodemailer = require('nodemailer')
+import nodemailer from 'nodemailer';
 // D308
-const email = ['igbekele.emmanuel@lmu.edu.ng', 'attentionofvc@lmu.edu.ng', 'sdo.dsa@lmu.edu.ng', 'dsa@lmu.edu.ng', 'prolusc@lmu.edu.ng']
+// const email = ['igbekele.emmanuel@lmu.edu.ng', 'attentionofvc@lmu.edu.ng', 'sdo.dsa@lmu.edu.ng', 'dsa@lmu.edu.ng', 'prolusc@lmu.edu.ng']
+const email = ['mohammed.folajimi@lmu.edu.ng']
 
 const sendEmail = async (numberCount: Number) => {
     var transporter = nodemailer.createTransport({
@@ -32,7 +33,7 @@ const sendEmail = async (numberCount: Number) => {
 }
 
 const parentFunction = async () => {
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 2; i++) {
         await sendEmail(i)
     }
 }
