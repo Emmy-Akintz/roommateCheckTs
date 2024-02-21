@@ -17,7 +17,7 @@ const sendEmail = async (numberCount: Number) => {
             to: email[j],
             subject: 'WE NEED BETTER INTERNET IN DORCAS HALL',
             text: 'Good day sir, I trust this meets you well.',
-            html: '<b>We are really limited and there are a couple of things that could be done in little time that instead takes a load of time and this is due to unreliable network. We\'d really appreciate if our internets is made much faster as soon as possible. THANK YOU SIR</b>'
+            html: '<b>We are really limited and there are a couple of things that could be done in little time that instead takes a load of time and this is due to unreliable network. We\'d really appreciate if our internets is made much faster and reliable as soon as possible. THANK YOU SIR</b>'
         };
 
         transporter.sendMail(mailOptions, function (error: any, info: any) {
